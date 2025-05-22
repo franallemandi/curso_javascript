@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pago</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/pago.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  </head>
+  <body>
+    <h1>Información de Pago</h1>
+    <form id="formulario-pago">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required />
+      <label for="metodo-pago">Método de Pago:</label>
+      <select id="metodo-pago" name="metodo-pago" required>
+        <option value="">Seleccione un método de pago</option>
+        <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+        <option value="paypal">PayPal</option>
+      </select>
+      <div id="tarjeta-info" style="display: none">
+        <label for="numero-tarjeta">Número de Tarjeta:</label>
+        <input
+          type="text"
+          id="numero-tarjeta"
+          class="inputs-tarjeta"
+          name="numero-tarjeta"
+        />
+        <label for="fecha-vencimiento">Fecha de Vencimiento:</label>
+        <input
+          type="text"
+          id="fecha-vencimiento"
+          class="inputs-tarjeta"
+          name="fecha-vencimiento"
+        />
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" class="inputs-tarjeta" name="cvv" />
+      </div>
+      <button type="submit" id="enviar-pago">Pagar</button>
+    </form>
+    <div id="volver-div">
+      <button class="volver">
+        <a class="anchor" href="index.html">Volver atrás</a>
+      </button>
+    </div>
+  </body>
+</html>

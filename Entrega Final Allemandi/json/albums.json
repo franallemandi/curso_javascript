@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Thriller - Michael Jackson",
+    "precio": 20.99,
+    "img": "assets/thriller.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "Back in Black - AC/DC",
+    "precio": 15.99,
+    "img": "assets/acdc.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "The Bodyguard - Whitney Houston",
+    "precio": 17.99,
+    "img": "assets/whitney.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "The Dark Side Of The Moon - Pink Floyd",
+    "precio": 19.49,
+    "img": "assets/Dark_Side_of_the_Moon.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Their Greatest Hits - Eagles",
+    "precio": 21.99,
+    "img": "assets/eagles.jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Bat Out Of Hell - Meat Loaf",
+    "precio": 17.49,
+    "img": "assets/meatloaf.jpeg"
+  },
+  {
+    "id": 7,
+    "nombre": "Hotel California - Eagles",
+    "precio": 17.99,
+    "img": "assets/hotel.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "Come On Over - Shania Twain",
+    "precio": 19.49,
+    "img": "assets/shania.jpeg"
+  },
+  {
+    "id": 9,
+    "nombre": "Rumours - Fleetwood Mac",
+    "precio": 21.99,
+    "img": "assets/FMacRumours.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Saturday Night Fever - Bee Gees/Varios Artistas",
+    "precio": 17.49,
+    "img": "assets/saturday.jfif"
+  }
+]
